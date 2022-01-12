@@ -1,0 +1,83 @@
+#gameContainer
+{
+    /* style the gameContainer if the game includes non-canvas elements */
+    width:100vw;
+    height:100vh;
+
+    
+}
+
+#gameCanvas
+{
+    /* the canvas styling usually does not change */
+    outline:1px solid darkgrey;
+    width:90vw;
+    height:80vh;
+    margin-left: 10px;
+    margin-right: auto;
+
+}
+
+#loadingMessage
+{
+    /* the loading message styling usually does not change */
+    position:absolute;
+    top:100px;
+    left:100px;
+    z-index:100;
+    font-size:25px;
+}
+
+#score{
+    font-size: 5wh;
+    margin-top: 0;
+    margin-left: 25px;
+    color: green;
+    /* width: 500px; */
+    float: left;
+}
+
+#level{
+    font-size: 5wh;
+    margin-top: 0;
+    margin-left:0;
+    float: left;
+}
+
+#buttons{
+    margin-left: 10px;
+    margin-right: auto;
+    width: 90vw;
+    height: 250px;
+}
+
+#left{
+    height: 12vh;
+    width: 23vw;
+    float: left;
+    border: green dotted 1px;
+}
+
+#both{
+    height: 250px;
+    float: left;
+}
+
+#up{
+    height: 6vh;
+    width: 42vw;
+    border: green dotted 1px;
+}
+
+#down{
+    height: 6vh;
+    width: 42vw;
+    border: green dotted 1px;
+}
+
+#right{
+    height: 12vh;
+    width: 23vw;
+    float: left;
+    border: green dotted 1px;
+}
